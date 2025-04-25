@@ -1,0 +1,2 @@
+C:/Users/33231/Desktop/ESP32-SZP/boot_key/CMakeFiles/edit_cache.dir
+C:/Users/33231/Desktop/ESP32-SZP/boot_key/CMakeFiles/rebuild_cache.dir

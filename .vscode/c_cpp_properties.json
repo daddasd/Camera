@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "includePath": [
+                "C:\\Users\\33231\\Desktop\\ESP32-S3-SZP\\boot_key\\esp-idf\\components\\**"
+            ],
+            "compileCommands": [
+                "${workspaceFolder}/compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}

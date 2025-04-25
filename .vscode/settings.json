@@ -1,0 +1,42 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "qmi8658.h": "c",
+        "esp_err.h": "c",
+        "i2c.h": "c",
+        "esp_types.h": "c",
+        "SD.C": "cpp",
+        "cstdio": "c",
+        "vector": "c",
+        "myes7210.h": "c",
+        "lcd.h": "c",
+        "esp_attr.h": "c",
+        "esp_lcd_panel_io.h": "c",
+        "esp_lcd_panel_vendor.h": "c",
+        "gpio_reg.h": "c",
+        "ledc_periph.h": "c",
+        "gpio.h": "c",
+        "lvgl.h": "c",
+        "esp_lcd_backlight.h": "c",
+        "lv_port_disp.h": "c",
+        "spi_master.h": "c",
+        "stdbool.h": "c",
+        "lv_demos.h": "c",
+        "mrx.h": "c",
+        "sd.h": "c",
+        "es7210.h": "c",
+        "esp_lcd_types.h": "c",
+        "esp_lcd_touch_ft5x06.h": "c",
+        "task.h": "c",
+        "lv_demo_music_main.h": "c"
+    },
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.flashType": "UART",
+    "idf.portWin": "COM29",
+    "C_Cpp.errorSquiggles": "disabled"
+}
