@@ -38,7 +38,7 @@
     #elif defined(LV_CONF_INCLUDE_SIMPLE)         /*Or simply include lv_conf.h is enabled*/
         #include "lv_conf.h"
     #else
-        #include "lv_conf.h"                /*Else assume lv_conf.h is next to the lvgl folder*/
+        #include "../../lv_conf.h"                /*Else assume lv_conf.h is next to the lvgl folder*/
     #endif
     #if !defined(LV_CONF_H) && !defined(LV_CONF_SUPPRESS_DEFINE_CHECK)
         /* #include will sometimes silently fail when __has_include is used */
@@ -1009,7 +1009,7 @@
     #ifdef CONFIG_LV_FONT_MONTSERRAT_12
         #define LV_FONT_MONTSERRAT_12 CONFIG_LV_FONT_MONTSERRAT_12
     #else
-        #define LV_FONT_MONTSERRAT_12 1
+        #define LV_FONT_MONTSERRAT_12 0
     #endif
 #endif
 #ifndef LV_FONT_MONTSERRAT_14
@@ -2432,7 +2432,7 @@
     #ifdef CONFIG_LV_USE_DEMO_BENCHMARK
         #define LV_USE_DEMO_BENCHMARK CONFIG_LV_USE_DEMO_BENCHMARK
     #else
-        #define LV_USE_DEMO_BENCHMARK 1
+        #define LV_USE_DEMO_BENCHMARK 0
     #endif
 #endif
 #if LV_USE_DEMO_BENCHMARK
@@ -2460,7 +2460,7 @@
     #ifdef CONFIG_LV_USE_DEMO_MUSIC
         #define LV_USE_DEMO_MUSIC CONFIG_LV_USE_DEMO_MUSIC
     #else
-        #define LV_USE_DEMO_MUSIC 1
+        #define LV_USE_DEMO_MUSIC 0
     #endif
 #endif
 #if LV_USE_DEMO_MUSIC

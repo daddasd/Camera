@@ -199,7 +199,7 @@ err:
     if (ret != ESP_OK) {
         lvgl_port_deinit();
     }
-    
+
     return ret;
 }
 

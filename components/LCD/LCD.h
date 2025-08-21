@@ -2,7 +2,7 @@
  * @Author: 'daddasd' '3323169544@qq.com'
  * @Date: 2025-04-22 18:54:16
  * @LastEditors: 'daddasd' '3323169544@qq.com'
- * @LastEditTime: 2025-04-25 20:37:20
+ * @LastEditTime: 2025-04-29 09:25:16
  * @FilePath: \boot_key\components\LCD\LCD.h
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -103,7 +103,7 @@ void dvp_pwdn(uint8_t level);
 
 #define BSP_LCD_H_RES (320)
 #define BSP_LCD_V_RES (240)
-#define BSP_LCD_RAM (20)
+#define BSP_LCD_RAM (200)
 
 #define BSP_LCD_SPI_MOSI (GPIO_NUM_40)
 #define BSP_LCD_SPI_CLK (GPIO_NUM_41)

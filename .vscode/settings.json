@@ -28,7 +28,13 @@
         "esp_lcd_types.h": "c",
         "esp_lcd_touch_ft5x06.h": "c",
         "task.h": "c",
-        "lv_demo_music_main.h": "c"
+        "lv_demo_music_main.h": "c",
+        "mygui.h": "c",
+        "events_init.h": "c",
+        "system_error": "c",
+        "widgets_init.h": "c",
+        "nettime.h": "c",
+        "cstdint": "c"
     },
     "idf.customExtraVars": {
         "IDF_TARGET": "esp32s3"
@@ -37,6 +43,6 @@
         "board/esp32s3-builtin.cfg"
     ],
     "idf.flashType": "UART",
-    "idf.portWin": "COM29",
+    "idf.portWin": "COM8",
     "C_Cpp.errorSquiggles": "disabled"
 }

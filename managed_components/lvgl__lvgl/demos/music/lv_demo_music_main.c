@@ -128,7 +128,7 @@ lv_obj_t * _lv_demo_music_main_create(lv_obj_t * parent)
     font_small = &lv_font_montserrat_22;
     font_large = &lv_font_montserrat_32;
 #else
-    font_small = &lv_font_montserrat_12;
+    font_small = &lv_font_montserrat_18;
     font_large = &lv_font_montserrat_16;
 #endif
 
