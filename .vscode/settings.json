@@ -34,7 +34,8 @@
         "system_error": "c",
         "widgets_init.h": "c",
         "nettime.h": "c",
-        "cstdint": "c"
+        "cstdint": "c",
+        "list": "c"
     },
     "idf.customExtraVars": {
         "IDF_TARGET": "esp32s3"
@@ -43,6 +44,6 @@
         "board/esp32s3-builtin.cfg"
     ],
     "idf.flashType": "UART",
-    "idf.portWin": "COM8",
+    "idf.portWin": "COM9",
     "C_Cpp.errorSquiggles": "disabled"
 }

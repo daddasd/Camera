@@ -16,17 +16,36 @@
 #include "widgets_init.h"
 #include "NetTime.h"
 
+void Task_List(void)
+{
+    char ptrTaskList[250];
+    vTaskList(ptrTaskList);
+    printf("**********************************************\n");
+    printf("Task            State     Prio    Stack    Num\n");
+    printf("**********************************************\n");
+    printf(ptrTaskList);
+    printf("**********************************************\n");
+}
+
+
+
 lv_ui guider_ui;
 // 初始化函数
 void app_main(void)
 {
     bsp_i2c_init(); // I2C初始化
     pca9557_init(); // IO扩展芯片初始化
-    //ESP_LOGI("wifi", "Initializing WiFi...");
-    myWiFi_Init();//wifi初始化
+    ESP_LOGI("wifi", "Initializing WiFi...");
+    wifi_init_sta();  // wifi初始化
     bsp_lvgl_start(); // 初始化液晶屏lvgl接口
     setup_ui(&guider_ui);
     events_init(&guider_ui);
+    Task_List();
+    while (1)
+    {
+        vTaskDelay(pdMS_TO_TICKS(10));
+    }
+    
     //my_gui();
     /* 下面5个demos 只打开1个运行 */
     // lv_demo_benchmark();

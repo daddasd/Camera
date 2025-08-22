@@ -1,2 +1,0 @@
-Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=e:\Espressif-tools\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DSDKCONFIG='c:\Users\XXZ\Desktop\Camera\boot_key\sdkconfig' -DCCACHE_ENABLE=1 C:\Users\XXZ\Desktop\Camera\boot_key
-CMake Error: The current CMakeCache.txt directory C:/Users/XXZ/Desktop/Camera/boot_key/CMakeCache.txt is different than the directory c:/Users/33231/Desktop/ESP32-SZP/boot_key where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
